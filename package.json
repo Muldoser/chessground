@@ -19,7 +19,7 @@
   },
   "scripts": {
     "prepare": "$npm_execpath run compile",
-    "compile": "tsc --outDir . --sourceMap --declaration",
+    "compile": "tsc --outDir ./dist --sourceMap --declaration",
     "lint": "eslint src/*.ts",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
